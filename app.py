@@ -3,12 +3,13 @@ from io import BytesIO
 import pandas as pd
 import streamlit as st
 from gld.git_like_diff import GitLikeDiff
-from gld.gld_spec import dd_crf_spec, dd_choice_group_spec, dd_tag_spec
+from gld.gld_spec import dd_crf_spec, dd_choice_group_spec, dd_tag_spec, dd_visit_spec
 
 CONFIGS = {
     "CRF": dd_crf_spec,
     "ChoiceGroup": dd_choice_group_spec,
     "Tag": dd_tag_spec,
+    "Visit": dd_visit_spec,
 }
 
 # ────────────── Streamlit UI ──────────────
