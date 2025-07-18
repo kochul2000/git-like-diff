@@ -13,7 +13,7 @@ CONFIGS = {
 
 # ────────────── Streamlit UI ──────────────
 st.set_page_config(page_title="Excel Git-Diff", layout="wide")
-st.title("📄 Excel Git-Like Diff (LCS 재정렬)")
+st.title("DD2 Excel 비교 기능 (git-like-diff, LCS 정렬)")
 
 c1, c2 = st.columns(2)
 with c1:
